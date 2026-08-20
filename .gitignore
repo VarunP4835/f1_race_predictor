@@ -1,4 +1,7 @@
-data/*.csv 
-.ipynb_checkpoints/ 
-__pycache__/ 
-*.pyc 
+data/*.csv
+!data/df_model.csv
+data/*.pkl
+!data/f1_model.pkl
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
